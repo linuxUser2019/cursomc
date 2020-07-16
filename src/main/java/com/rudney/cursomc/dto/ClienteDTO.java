@@ -8,7 +8,10 @@ import javax.validation.constraints.NotEmpty;
 import org.hibernate.validator.constraints.Length;
 
 import com.rudney.cursomc.domain.Cliente;
+import com.rudney.cursomc.services.validation.ClienteUpdate;
 
+
+@ClienteUpdate
 public class ClienteDTO implements Serializable {
 
 	private static long serialVersionUID = 1L;
