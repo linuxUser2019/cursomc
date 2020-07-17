@@ -125,7 +125,7 @@ public class CursomcApplication implements CommandLineRunner{
 		
 		
 		
-		Cliente cli1 = new Cliente(null, "Maria Silva", "maria@gmail.com", "36378912377", TipoCliente.PESSOAFISICA, pe.encode("batatinha"));
+		Cliente cli1 = new Cliente(null, "maria Silva", "maria@gmail.com", "36378912377", TipoCliente.PESSOAFISICA, pe.encode("batatinha"));
 		cli1.getTelefones().addAll(Arrays.asList("124656", "233546576"));
 		
 		Cliente cli2 = new Cliente(null, "Ana costa", "maria@uoç.com", "37884942046", TipoCliente.PESSOAFISICA, pe.encode("batatinha2"));
